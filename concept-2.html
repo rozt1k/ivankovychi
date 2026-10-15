@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Іванковичі — концепт 2, Вечір</title>
+  <meta name="description" content="Шість сучасних будинків з басейнами у приватному кварталі в селі Іванковичі, Київська область.">
+  <meta name="theme-color" content="#1F2220">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231F2220'/%3E%3Cpath d='M7 23V13h9v10M16 23V9h9v14' fill='none' stroke='%23E3B26B' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preload" href="fonts/cormorant-garamond-cyrillic-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="img/c2-hero-2200.webp" imagesrcset="img/c2-hero-1100.webp 1100w, img/c2-hero-2200.webp 2200w" imagesizes="100vw" fetchpriority="high">
+  <link rel="stylesheet" href="css/concept-2.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Перейти до змісту</a>
+
+<header class="hd" id="hd">
+  <div class="hd__inner">
+    <nav class="hd__nav" id="nav" aria-label="Головне меню">
+      <a href="#about">Про квартал</a>
+      <a href="#plan">Генплан</a>
+      <a href="#houses">Будинки</a>
+      <a class="hd__nav-phone" href="tel:+380000000000">+380 00 000 00 00</a>
+    </nav>
+    <a class="hd__logo" href="#top" aria-label="Котеджне містечко Іванковичі — на початок сторінки">
+      Іванковичі<small>котеджне містечко</small>
+    </a>
+    <div class="hd__right">
+      <a class="hd__phone" href="tel:+380000000000">+380 00 000 00 00</a>
+      <a class="hd__cta" href="#contact">Перегляд</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Відкрити меню" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <img class="hero__img" src="img/c2-hero-2200.webp" srcset="img/c2-hero-1100.webp 1100w, img/c2-hero-2200.webp 2200w" sizes="100vw"
+         alt="Внутрішній проїзд кварталу на заході сонця: будинки з навісами для авто, ліхтарі й квітники" fetchpriority="high">
+    <div class="hero__shade"></div>
+    <div class="hero__inner">
+      <p class="hero__place">с. Іванковичі, Фастівський район, Київська область</p>
+      <h1 class="hero__title">Шість будинків<br>в Іванковичах</h1>
+      <p class="hero__lead">Приватний квартал сучасних котеджів з басейнами, навісами для авто й ландшафтними садами.</p>
+      <div class="hero__actions">
+        <a class="btn" href="#contact">Записатися на перегляд</a>
+        <a class="tlink" href="#plan">Обрати ділянку</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap about__grid">
+      <div class="about__text">
+        <h2 class="h2">Квартал, де сусідів лише п’ятеро</h2>
+        <p class="lead">Шість будинків на огородженій території з власним проїздом. Кожен стоїть на окремій ділянці з садом, терасою й басейном, тож поруч завжди тихо, а простору вистачає всім.</p>
+        <p class="muted">Архітектура однакова за духом і різна за формою: пласкі дахи, панорамні вікна, світлі фасадні панелі, натуральний камінь і дерево.</p>
+      </div>
+      <dl class="facts">
+        <div><dt>6,7–8,8</dt><dd>соток на кожній із шести ділянок</dd></div>
+        <div><dt>Басейн</dt><dd>біля тераси на кожній ділянці</dd></div>
+        <div><dt>Навіс</dt><dd>для авто з окремим заїздом</dd></div>
+        <div><dt>Огорожа</dt><dd>по периметру й проїзд лише для мешканців</dd></div>
+      </dl>
+    </div>
+
+    <figure class="night">
+      <img src="img/hero-2000.webp" srcset="img/hero-1000.webp 1000w, img/hero-2000.webp 2000w" sizes="100vw"
+           alt="Квартал увечері згори: підсвічені вікна, тераси й доріжки між будинками" loading="lazy" width="2000" height="999">
+      <figcaption class="wrap">Увечері квартал підсвічений: ліхтарі вздовж проїзду, світло на терасах і біля басейнів.</figcaption>
+    </figure>
+  </section>
+
+  <section class="plan" id="plan">
+    <div class="wrap">
+      <div class="head">
+        <h2 class="h2">Генплан</h2>
+        <p class="muted">Оберіть ділянку на плані або в списку.</p>
+      </div>
+      <div class="plan__grid">
+        <div class="plan__map">
+          <div class="plan__canvas" id="planMap">
+            <img src="img/genplan-1800.webp" srcset="img/genplan-900.webp 900w, img/genplan-1800.webp 1800w"
+                 sizes="(min-width: 1000px) 60vw, 100vw" alt="Вигляд кварталу згори: шість будинків по обидва боки внутрішнього проїзду"
+                 loading="lazy" width="1800" height="1273">
+          </div>
+        </div>
+        <div class="plan__side">
+          <table class="lots">
+            <caption class="sr">Ділянки кварталу</caption>
+            <thead><tr><th scope="col">Ділянка</th><th scope="col">Площа</th><th scope="col">Статус</th></tr></thead>
+            <tbody id="lotRows"></tbody>
+          </table>
+          <a class="btn btn--wide" id="lotBtn" href="#contact">Дізнатися ціну ділянки 1</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="houses" id="houses">
+    <div class="wrap">
+      <div class="head">
+        <h2 class="h2">Будинки</h2>
+        <p class="muted">Три архітектурні рішення. Площі й планування надішлемо разом із ціною.</p>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Тип будинку">
+        <button role="tab" id="tab-a" aria-controls="house-a" aria-selected="true">Двоповерховий з балконом</button>
+        <button role="tab" id="tab-b" aria-controls="house-b" aria-selected="false" tabindex="-1">Двоповерховий з вітражем</button>
+        <button role="tab" id="tab-c" aria-controls="house-c" aria-selected="false" tabindex="-1">Одноповерховий</button>
+      </div>
+
+      <article class="house" id="house-a" role="tabpanel" aria-labelledby="tab-a">
+        <div class="house__media" data-facades>
+          <img class="is-active" src="img/house-a1.webp" alt="Двоповерховий білий будинок з навісом для авто, вигляд з боку в’їзду" width="979" height="566">
+          <img src="img/house-a2.webp" alt="Той самий будинок з боку саду: скляний балкон над критою терасою" loading="lazy" width="1008" height="521">
+          <div class="switch" role="group" aria-label="Фасад">
+            <button type="button" class="is-active" aria-pressed="true">З боку в’їзду</button>
+            <button type="button" aria-pressed="false">З боку саду</button>
+          </div>
+        </div>
+        <div class="house__body">
+          <p class="house__text">Чистий білий об’єм із широким навісом над заїздом. З боку саду крита тераса, а над нею скляний балкон спальні.</p>
+          <dl class="specs">
+            <div><dt>Поверхи</dt><dd>2</dd></div>
+            <div><dt>Навіс для авто</dt><dd>так</dd></div>
+            <div><dt>Тераса</dt><dd>крита, з боку саду</dd></div>
+            <div><dt>Балкон</dt><dd>зі скляним огородженням</dd></div>
+          </dl>
+          <a class="tlink" href="#contact" data-house="Двоповерховий з балконом">Запитати площу й ціну</a>
+        </div>
+      </article>
+
+      <article class="house" id="house-b" role="tabpanel" aria-labelledby="tab-b" hidden>
+        <div class="house__media" data-facades>
+          <img class="is-active" src="img/house-b1.webp" alt="Двоповерховий будинок у сірих і білих панелях з навісом для авто, вигляд з вулиці" loading="lazy" width="979" height="511">
+          <img src="img/house-b2.webp" alt="Той самий будинок з боку саду: вітраж на два поверхи й балкон над літньою зоною з каміном" loading="lazy" width="974" height="500">
+          <div class="switch" role="group" aria-label="Фасад">
+            <button type="button" class="is-active" aria-pressed="true">З боку в’їзду</button>
+            <button type="button" aria-pressed="false">З боку саду</button>
+          </div>
+        </div>
+        <div class="house__body">
+          <p class="house__text">Сірий камінь і білий центральний об’єм. Вітраж на всю висоту двох поверхів наповнює вітальню світлом, під балконом літня зона з вуличним каміном.</p>
+          <dl class="specs">
+            <div><dt>Поверхи</dt><dd>2</dd></div>
+            <div><dt>Навіс для авто</dt><dd>так</dd></div>
+            <div><dt>Вітальня</dt><dd>з вітражем на два поверхи</dd></div>
+            <div><dt>Літня зона</dt><dd>з каміном під балконом</dd></div>
+          </dl>
+          <a class="tlink" href="#contact" data-house="Двоповерховий з вітражем">Запитати площу й ціну</a>
+        </div>
+      </article>
+
+      <article class="house" id="house-c" role="tabpanel" aria-labelledby="tab-c" hidden>
+        <div class="house__media" data-facades>
+          <img class="is-active" src="img/house-c1.webp" alt="Одноповерховий будинок з навісом для авто й дерев’яними вхідними дверима" loading="lazy" width="1095" height="451">
+          <img src="img/house-c2.webp" alt="Той самий будинок з боку саду: крита тераса з вуличним каміном і панорамні вікна" loading="lazy" width="1043" height="423">
+          <div class="switch" role="group" aria-label="Фасад">
+            <button type="button" class="is-active" aria-pressed="true">З боку в’їзду</button>
+            <button type="button" aria-pressed="false">З боку саду</button>
+          </div>
+        </div>
+        <div class="house__body">
+          <p class="house__text">Усе життя на одному рівні, без сходів. Панорамні вікна виходять у сад, а крита тераса з каміном стає ще однією кімнатою з весни до осені.</p>
+          <dl class="specs">
+            <div><dt>Поверхи</dt><dd>1</dd></div>
+            <div><dt>Навіс для авто</dt><dd>так</dd></div>
+            <div><dt>Тераса</dt><dd>крита, з вуличним каміном</dd></div>
+            <div><dt>Вікна</dt><dd>панорамні, у сад</dd></div>
+          </dl>
+          <a class="tlink" href="#contact" data-house="Одноповерховий">Запитати площу й ціну</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap contact__grid">
+      <div>
+        <h2 class="h2">Записатися на перегляд</h2>
+        <p class="lead">Покажемо квартал увечері або вдень, як вам зручніше. Залиште телефон, менеджер передзвонить і узгодить час.</p>
+        <p class="contact__phone"><a href="tel:+380000000000">+380 00 000 00 00</a><span>щодня з 10:00 до 19:00</span></p>
+      </div>
+      <form class="form" id="leadForm" novalidate>
+        <p class="pick" id="pickNote" hidden>Ви обрали: <b id="pickText"></b>
+          <button type="button" id="pickClear" aria-label="Скасувати вибір">×</button></p>
+        <div class="field">
+          <label for="c2Name">Ім’я</label>
+          <input id="c2Name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="c2Phone">Телефон</label>
+          <input id="c2Phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+380" required>
+        </div>
+        <input type="hidden" id="c2Interest" name="interest" value="">
+        <button class="btn btn--wide" type="submit">Записатися на перегляд</button>
+        <p class="form__note">Натискаючи кнопку, ви погоджуєтеся на обробку персональних даних.</p>
+        <p class="form__msg" id="formMsg" role="status" hidden></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="ft">
+  <div class="wrap ft__grid">
+    <span class="ft__logo">Іванковичі</span>
+    <p>Інформація на сайті не є публічною офертою. Візуалізації можуть відрізнятися від фактичного виконання.</p>
+    <p>© 2026 Котеджне містечко в Іванковичах</p>
+  </div>
+</footer>
+
+<script src="js/concept-2.js" defer></script>
+<script src="js/switcher.js" defer></script>
+</body>
+</html>
